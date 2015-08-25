@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">Material Application</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings">Settings</string>
+    <string name="myaccount">My Account</string>
+    <string name="stats">Stats</string>
+    <string name="search">Search</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+
+    <string name="Home">Home</string>
+    <string name="Map">Map</string>
+    <string name="Departments">Departments</string>
+    <string name="Units">Units</string>L
+    <string name="Gallery">Gallery</string>
+    <string name="AboutPSIS">About PSIS</string>
+    <string name="Help">Help</string>
+    <string name="Credits">Credits</string>
+
+    <string name="imgdesc">imgdesc</string>
+
+
+    <string name="black">#000000</string>
+<!-- This is for Departments Titles !-->
+    <string-array name="titles">
+        <item>Jabatan Teknologi Maklumat &amp; Telekomunikasi</item>
+        <item>Jabatan Pelancongan &amp; Hospitaliti</item>
+        <item>Jabatan Perdagangan</item>
+        <item>Jabatan Kejuruteraan Awam</item>
+        <item>Jabatan Kejuruteraan Elektrik</item>
+        <item>Jabatan Pengajian Am</item>
+        <item>Jabatan Matematik &amp; Sains Komputer</item>
+        <item>Jabatan Hal Ehwal Pelajar</item>
+    </string-array>
+
+    <!-- This is for Unit Titles !-->
+    <string-array name="titles_unit">
+        <item>Unit Perpustakaan</item>
+        <item>Unit Perhubungan &amp; Latihan Industri</item>
+        <item>Unit Peperiksaan</item>
+        <item>Unit Sukan &amp; Kokurikulum</item>
+        <item>Unit Asrama</item>
+        <item>Unit Teknologi Maklumat</item>
+        <item>Unit Pembangunan Instruksional &amp; Multimedia</item>
+        <item>Unit Pembangunan &amp; Senggaraan</item>
+        <item>Unit Pentadbiran</item>
+        <item>Unit Kewangan</item>
+        <item>Unit Jaminan Kualiti</item>
+        <item>Unit CISEC</item>
+        <item>Unit Penyelidikan &amp; Inovasi</item>
+        <item>Unit Psikologi &amp; Inovasi</item>
+        <item>Unit Perhubungan Awam</item>
+        <item>Unit latihan &amp; Pendidikan Lanjutan</item>
+        <item>Unit Keusahawanan</item>
+        <item>Clinic (Medical Asistant)</item>
+        <item>Centre of Technology</item>
+    </string-array>
+
+    <!-- This is for JTMK Titles !-->
+    <string-array name="lect_jtmk">
+        <item>Show All Lecturers</item>
+        <item>Show Laboratories</item>
+        <item>View Gallery</item>
+        <item>View Course Offered</item>
+        <item>Contacts</item>
+    </string-array>
+
+
+    <!-- This is for JTMK Icons !-->
+    <array name="icons_jtmk">
+        <item>@drawable/dpt_lect</item>
+        <item>@drawable/dpt_lab</item>
+        <item>@drawable/dpt_gallery</item>
+        <item>@drawable/dpt_course</item>
+        <item>@drawable/dpt_contact</item>
+    </array>
+
+    <!-- This is for JTMK Titles !-->
+    <string-array name="unit_title">
+        <item>Show All Staff</item>
+        <item>Gallery</item>
+        <item>Contact</item>
+    </string-array>
+
+    <!-- This is for JTMK Icons !-->
+    <array name="unit_icon">
+        <item>@drawable/dpt_lect</item>
+        <item>@drawable/dpt_gallery</item>
+        <item>@drawable/dpt_contact</item>
+    </array>
+
+    <!-- This is for Departments Icons !-->
+    <array name="icons">
+        <item>@drawable/dpt_jtmk_ico</item>
+        <item>@drawable/dpt_jph_ico</item>
+        <item>@drawable/dpt_jp_ico</item>
+        <item>@drawable/dpt_jka_ico</item>
+        <item>@drawable/dpt_jke_ico</item>
+        <item>@drawable/dpt_jpa_ico</item>
+        <item>@drawable/dpt_jmsk_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+    </array>
+
+    <!-- This is for Map Titles !-->
+    <array name="map_title">
+        <item>Show General Map</item>
+        <item>Show Only Departments/Laboratories</item>
+        <item>Show Only Units</item>
+        <item>Show Only Sports Facilities</item>
+        <item>Show Other Services</item>
+    </array>
+
+    <!-- This is for Map icon !-->
+    <array name="map_icon">
+        <item>@drawable/ico_map</item>
+        <item>@drawable/ico_dpt</item>
+        <item>@drawable/ico_unit</item>
+        <item>@drawable/ico_map_sport</item>
+        <item>@drawable/ico_map_service</item>
+    </array>
+
+    <!-- This is for Unit Icons 19 !-->
+    <array name="icons_unit">
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+    </array>
+
+    <!-- This is for about Titles !-->
+    <string-array name="about_title">
+        <item>Visi &amp; Misi</item>
+        <item>Dasar Kualiti</item>
+        <item>Objektif Kualiti</item>
+        <item>Video koperat</item>
+    </string-array>
+
+    <!-- This is for about Icons !-->
+    <array name="about_icon">
+        <item>@drawable/dpt_course</item>
+        <item>@drawable/ico_help</item>
+        <item>@drawable/dpt_jmsk_ico</item>
+        <item>@drawable/ico_map</item>
+    </array>
+
+    <!-- This is for about Titles !-->
+    <string-array name="help_title">
+        <item>User Manual</item>
+        <item>Report Crash</item>
+        <item>Report Problem</item>
+        <item>Recommendation &amp; Suggestion</item>
+    </string-array>
+
+    <!-- This is for about Icons !-->
+    <array name="help_icon">
+        <item>@drawable/ico_help</item>
+        <item>@drawable/ico_help</item>
+        <item>@drawable/ico_help</item>
+        <item>@drawable/ico_help</item>
+    </array>
+
+    <!-- This is for about Titles !-->
+    <string-array name="credit_title">
+        <item>Acknowledgement</item>
+        <item>About Us</item>
+        <item>Special Thanks</item>
+    </string-array>
+
+    <!-- This is for about Icons !-->
+    <array name="credit_icon">
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+        <item>@drawable/dpt_jhep_ico</item>
+    </array>
+
+
+    <!-- This is for JTMK Titles !-->
+    <string-array name="title_gallery">
+        <item>PSIS View</item>
+        <item>Indoor</item>
+        <item>Students Activities</item>
+    </string-array>
+
+
+    <!-- This is for JTMK Icons !-->
+    <array name="icons_gallery">
+        <item>@drawable/ico_gallery</item>
+        <item>@drawable/ico_gallery</item>
+        <item>@drawable/ico_gallery</item>
+    </array>
+
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tropo" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico_tropo"
+        android:label="TRoPo"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".splash"
+            android:label="TRoPo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dpt_JTMK" />
+        <activity
+            android:name=".MainActivity" />
+        <activity
+            android:name=".Fetch"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".lab_JTMK"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Fetch_JTMK_Office"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_gl1"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_gl2"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_gl3"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_hp1"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_hp2"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_pa"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_rk"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_skd"
+        android:theme="@android:style/Theme.Dialog" />
+        <activity
+        android:name=".Fetch_JTMK_tm"
+        android:theme="@android:style/Theme.Dialog" />
+
+        <activity
+            android:name=".Course_JTMK"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Contact_JTMK"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Dpt_JPH" />
+        <activity
+            android:name=".Fetch_JPH"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".lab_JPH"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Fetch_JPH_Office"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Course_JPH"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Contact_JPH"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Map_general"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode" />
+        <activity
+            android:name=".Map_departments"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode" />
+        <activity
+            android:name=".Map_units"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode" />
+        <activity
+            android:name=".Map_service"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode" />
+        <activity
+            android:name=".Map_sport"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode" />
+        <activity
+            android:name=".Map_JTMK_JMSK"
+            android:theme="@android:style/Theme.Dialog"/>
+
+        <!-- Gallery !-->
+        <activity android:name=".Gallery_JTMK" android:theme="@android:style/Theme.Dialog"/>
+
+
+        <activity android:name=".Dpt_JP"/>
+        <activity android:name=".Fetch_JP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".lab_JP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Contact_JP" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".Dpt_JKA"/>
+        <activity android:name=".Fetch_JKA" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".lab_JKA" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JKA_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JKA" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Contact_JKA" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".Dpt_JKE"/>
+        <activity android:name=".Fetch_JKE" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".lab_JKE" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JKE_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JKE" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Contact_JKE" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".Dpt_JPA"/>
+        <activity android:name=".Fetch_JPA" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".lab_JPA" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".Fetch_JPA_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JPA" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_JPA" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".Dpt_JMSK"/>
+        <activity android:name=".Fetch_JMSK" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".lab_JMSK" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".Fetch_JMSK_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JMSK" android:theme="@android:style/Theme.Dialog" />
+        -->
+        <activity android:name=".Contact_JMSK" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".Dpt_JHEP"/>
+        <activity android:name=".Fetch_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_JHEP" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_PERPUSTAKAAN"/>
+        <activity android:name=".Fetch_PERPUSTAKAAN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_PERPUSTAKAAN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_UPLI"/>
+        <activity android:name=".Fetch_UPLI" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_UPLI" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_PEPERIKSAAN"/>
+        <activity android:name=".Fetch_PEPERIKSAAN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_PEPERIKSAAN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_SUKAN"/>
+        <activity android:name=".Fetch_SUKAN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_SUKAN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_ASRAMA"/>
+        <activity android:name=".Fetch_ASRAMA" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_ASRAMA" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_UTM"/>
+        <activity android:name=".Fetch_UTM" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_UTM" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_CIDM"/>
+        <activity android:name=".Fetch_PEMBANGUNAN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_PEMBANGUNAN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_PS"/>
+        <activity android:name=".Fetch_PSENGGARAAN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_PSENGGARAAN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_ADMIN"/>
+        <activity android:name=".Fetch_ADMIN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_ADMIN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_WANG"/>
+        <activity android:name=".Fetch_WANG" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_WANG" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_JK"/>
+        <activity android:name=".Fetch_KUALITI" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_KUALITI" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_CISEC"/>
+        <activity android:name=".Fetch_CISEC" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_CISEC" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_PI"/>
+        <activity android:name=".Fetch_PENYELIDIKAN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_PENYELIDIKAN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_PK"/>
+        <activity android:name=".Fetch_PSIKOLOGI" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_PSIKOLOGI" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_PA"/>
+        <activity android:name=".Fetch_AWAM" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_AWAM" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_LPL"/>
+        <activity android:name=".Fetch_ULPL" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_ULPL" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_UK"/>
+        <activity android:name=".Fetch_KEUSAHAWANAN" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_KEUSAHAWANAN" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_MA"/>
+        <activity android:name=".Fetch_MA" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_MA" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".U_COT"/>
+        <activity android:name=".Fetch_COT" android:theme="@android:style/Theme.Dialog" />
+        <!--
+        <activity android:name=".lab_JHEP" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Fetch_JHEP_Office" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Course_JHEP" android:theme="@android:style/Theme.Dialog" /> -->
+        <activity android:name=".Contact_COT" android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".Gallery_Panorama"  android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Gallery_Indoor"  android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Gallery_Activities"  android:theme="@android:style/Theme.Dialog" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>
